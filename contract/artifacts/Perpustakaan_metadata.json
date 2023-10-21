@@ -1,0 +1,209 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "admin",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "bukuMapping",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "ISBN",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "judul",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "tahunDibuat",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "penulis",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "ISBN",
+						"type": "string"
+					}
+				],
+				"name": "getDataBuku",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "ISBN",
+						"type": "string"
+					}
+				],
+				"name": "hapusBuku",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "ISBN",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "judul",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "tahunDibuat",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "penulis",
+						"type": "string"
+					}
+				],
+				"name": "tambahBuku",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "ISBN",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "judul",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "tahunDibuat",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "penulis",
+						"type": "string"
+					}
+				],
+				"name": "updateBuku",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"perpus.sol": "Perpustakaan"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/utils/math/SafeMath.sol": {
+			"keccak256": "0x58b21219689909c4f8339af00813760337f7e2e7f169a97fe49e2896dcfb3b9a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ef8e012e946dec20e59f2d4446f4b44bb098f3fa8bac103b1b5112fff777447b",
+				"dweb:/ipfs/QmVTooKWcLkJ9W68yNX4MgdrbAKiAXwuRN9A7f4NkdcdtQ"
+			]
+		},
+		"perpus.sol": {
+			"keccak256": "0x5d696e27a036aa7aa4bd385790e2d3be49adb7f0f86677bcddb2bfab741ea481",
+			"license": "UNLICENSE",
+			"urls": [
+				"bzz-raw://d897c05e6bbbd915dead3b42f030a46b429c874f6245cea7bed81eb80ff4399e",
+				"dweb:/ipfs/Qmbp3GfJtFwLAEDUWbjJny8Z7cDTq4qRsuoUzqMfnhC8TL"
+			]
+		}
+	},
+	"version": 1
+}
